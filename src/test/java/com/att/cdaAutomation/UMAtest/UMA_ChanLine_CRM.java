@@ -14,6 +14,8 @@ public class UMA_ChanLine_CRM extends GenExtentReports{
 	BaseClass baseClass = new BaseClass(driver);
 	UMA_ChanLine_CRM_pObj pObj = new UMA_ChanLine_CRM_pObj(driver);
 	
+	
+	
 	@Test(priority = 0)
 	public void VerifyTextBelowHeading() throws InterruptedException{
 		logger = extent.createTest("VerifyTextBelowHeading");
