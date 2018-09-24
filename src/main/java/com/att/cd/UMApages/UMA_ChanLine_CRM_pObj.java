@@ -1,11 +1,12 @@
 package com.att.cd.UMApages;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class UMA_ChanLine_CRM_pObj
+import com.att.cd.lib.BaseClass;
+
+public class UMA_ChanLine_CRM_pObj extends BaseClass
 {
 	//text below Heading
 	@FindBy(xpath = "html/body/div[1]/table/tbody/tr/td/table/tbody/tr[3]/td/form/div[1]")
@@ -47,12 +48,7 @@ public class UMA_ChanLine_CRM_pObj
 	@FindBy(xpath = ".//*[@id='channelGuidetBody']/tr[1]/td[2]")	
 	public WebElement resultgrid_1st;
 
-	WebDriver driver;
-
-	public UMA_ChanLine_CRM_pObj(WebDriver driver) {
-
-			this.driver = driver;
-
+	public UMA_ChanLine_CRM_pObj() {
 			PageFactory.initElements(driver, this);
 
 		}

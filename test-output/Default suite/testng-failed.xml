@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.att.cdaAutomation.UMAtest.UMA_ChanLine_CRM">
+        <methods>
+          <include name="VerifyTextBelowFields"/>
+          <include name="endResult"/>
+          <include name="setUp"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="VerifyZIPCodeInTextBox"/>
+          <include name="VerifyTextBelowHeading"/>
+          <include name="VerifySearchFunctionality"/>
+        </methods>
+      </class> <!-- com.att.cdaAutomation.UMAtest.UMA_ChanLine_CRM -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

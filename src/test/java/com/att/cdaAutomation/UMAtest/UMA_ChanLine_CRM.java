@@ -5,16 +5,11 @@ import com.att.cd.lib.GenExtentReports;
 import com.aventstack.extentreports.Status;
 import com.att.cd.UMApages.UMA_ChanLine_CRM_pObj;
 import com.att.cd.lib.BaseClass;
-import com.att.cd.lib.BrowserFactory;
-import org.openqa.selenium.WebDriver;
 
 public class UMA_ChanLine_CRM extends GenExtentReports{
 
-	WebDriver driver = BrowserFactory.initalize("firefox");
-	BaseClass baseClass = new BaseClass(driver);
-	UMA_ChanLine_CRM_pObj pObj = new UMA_ChanLine_CRM_pObj(driver);
-	
-	
+	BaseClass baseClass= new BaseClass();
+	UMA_ChanLine_CRM_pObj pObj= new UMA_ChanLine_CRM_pObj();	
 	
 	@Test(priority = 0)
 	public void VerifyTextBelowHeading() throws InterruptedException{
@@ -23,10 +18,8 @@ public class UMA_ChanLine_CRM extends GenExtentReports{
 		Thread.sleep(10000);
 		logger.log(Status.PASS, "URL opened successfully");
 	
-		driver.manage().window().maximize();
 		baseClass.verifyTextEqual(pObj.Text_BelowHeading, "Enter your zip code below. This enables us to give you an accurate channel line-up.");
 		logger.log(Status.PASS, "Text content below heading verified successfully");
-		System.out.println("test 0 executed");
 	}
 
 	@Test(priority = 1)
@@ -34,7 +27,6 @@ public class UMA_ChanLine_CRM extends GenExtentReports{
 		logger = extent.createTest("VerifyZIPCodeInTextBox");
 		baseClass.verifyAttributeValue(pObj.ZIPtextbox, "47302");
 		logger.log(Status.PASS, "Text in ZIP field verified successfully");
-		System.out.println("test 1 executed");
 	}
 	
 	@Test(priority = 2)
