@@ -2,7 +2,9 @@ package com.att.cd.lib;
 
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -20,7 +22,7 @@ public class GenExtentReports {
 	public static ExtentReports extent;
 	public static ExtentTest logger;
 	
-	@BeforeTest
+	@BeforeSuite
 	public void startReport(){
 		htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "/test-output/myreport.html");
 		extent = new ExtentReports();
@@ -44,7 +46,7 @@ public class GenExtentReports {
 		}
 	}
 	
-	@AfterTest
+	@AfterSuite
 	public void endReport(){
 		extent.flush();
 	}

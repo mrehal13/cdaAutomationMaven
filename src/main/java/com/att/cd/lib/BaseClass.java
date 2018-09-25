@@ -14,16 +14,17 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
+import org.apache.log4j.Logger;
 
 public class BaseClass {
 	
+	Logger logg = Logger.getLogger(BaseClass.class);
 	public static WebDriver driver;
 	public static Properties prop ;
 	FileInputStream fis;
 	
+	
 	public BaseClass() {	
-		
-		System.out.println(System.getProperty("user.dir"));
 		try {
 			prop =new Properties();
 			fis = new FileInputStream(System.getProperty("user.dir") + "/src/main/resources/config.properties");
@@ -35,18 +36,14 @@ public class BaseClass {
 		catch (IOException e) {
 			e.printStackTrace();
 		}
-		
 		String browserName = prop.getProperty("browser");
-		if(browserName.equals("firefox"))
-		{
+		if(browserName.equals("firefox")){
 			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/geckodriver");
 			driver = new FirefoxDriver();
+		}else if(browserName.equals("chrome")){
+		// do this
 		}
-		else if(browserName.equals("chrome")){
-			// do this
-		}
-	}
-	
+	}	
 	
 	
 	public void handleJSalert(String alertAction) {
@@ -69,7 +66,9 @@ public class BaseClass {
 	
 	public void openULR(String URL_to_Open) {
 		driver.get(URL_to_Open);
+		logg.info("Opening URL: " + URL_to_Open);
 		driver.manage().window().maximize();
+		logg.info("Maximizing browser");
 	}
 
 	public void verifyTextEqual(WebElement actualTextXpath, String expectedText) {

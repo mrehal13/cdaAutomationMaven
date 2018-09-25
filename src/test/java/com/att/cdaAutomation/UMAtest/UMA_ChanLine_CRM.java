@@ -9,8 +9,8 @@ import com.att.cd.lib.BaseClass;
 public class UMA_ChanLine_CRM extends GenExtentReports{
 
 	BaseClass baseClass= new BaseClass();
-	UMA_ChanLine_CRM_pObj pObj= new UMA_ChanLine_CRM_pObj();	
-	
+	UMA_ChanLine_CRM_pObj pObj= new UMA_ChanLine_CRM_pObj();		
+		
 	@Test(priority = 0)
 	public void VerifyTextBelowHeading() throws InterruptedException{
 		logger = extent.createTest("VerifyTextBelowHeading");

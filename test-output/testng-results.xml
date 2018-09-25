@@ -2,76 +2,76 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35242" started-at="2018-09-24T20:37:43Z" finished-at="2018-09-24T20:38:18Z">
+  <suite name="Default suite" duration-ms="39785" started-at="2018-09-25T00:22:25Z" finished-at="2018-09-25T00:23:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35242" started-at="2018-09-24T20:37:43Z" finished-at="2018-09-24T20:38:18Z">
+    <test name="Default test" duration-ms="39785" started-at="2018-09-25T00:22:25Z" finished-at="2018-09-25T00:23:05Z">
       <class name="com.att.cdaAutomation.UMAtest.UMA_ChanLine_CRM">
-        <test-method status="PASS" signature="startReport()[pri:0, instance:com.att.cdaAutomation.UMAtest.UMA_ChanLine_CRM@66ea810]" name="startReport" is-config="true" duration-ms="321" started-at="2018-09-24T20:37:43Z" finished-at="2018-09-24T20:37:43Z">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.att.cdaAutomation.UMAtest.UMA_ChanLine_CRM@376a0d86]" name="startReport" is-config="true" duration-ms="333" started-at="2018-09-25T00:22:24Z" finished-at="2018-09-25T00:22:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="VerifyTextBelowHeading()[pri:0, instance:com.att.cdaAutomation.UMAtest.UMA_ChanLine_CRM@66ea810]" name="VerifyTextBelowHeading" duration-ms="22005" started-at="2018-09-24T20:37:43Z" finished-at="2018-09-24T20:38:05Z">
+        <test-method status="PASS" signature="VerifyTextBelowHeading()[pri:0, instance:com.att.cdaAutomation.UMAtest.UMA_ChanLine_CRM@376a0d86]" name="VerifyTextBelowHeading" duration-ms="22764" started-at="2018-09-25T00:22:25Z" finished-at="2018-09-25T00:22:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyTextBelowHeading -->
-        <test-method status="PASS" signature="endResult(org.testng.ITestResult)[pri:0, instance:com.att.cdaAutomation.UMAtest.UMA_ChanLine_CRM@66ea810]" name="endResult" is-config="true" duration-ms="2" started-at="2018-09-24T20:38:05Z" finished-at="2018-09-24T20:38:05Z">
+        <test-method status="PASS" signature="endResult(org.testng.ITestResult)[pri:0, instance:com.att.cdaAutomation.UMAtest.UMA_ChanLine_CRM@376a0d86]" name="endResult" is-config="true" duration-ms="2" started-at="2018-09-25T00:22:48Z" finished-at="2018-09-25T00:22:48Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerifyTextBelowHeading status=SUCCESS method=UMA_ChanLine_CRM.VerifyTextBelowHeading()[pri:0, instance:com.att.cdaAutomation.UMAtest.UMA_ChanLine_CRM@66ea810] output={null}]]]>
+                <![CDATA[[TestResult name=VerifyTextBelowHeading status=SUCCESS method=UMA_ChanLine_CRM.VerifyTextBelowHeading()[pri:0, instance:com.att.cdaAutomation.UMAtest.UMA_ChanLine_CRM@376a0d86] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endResult -->
-        <test-method status="PASS" signature="VerifyZIPCodeInTextBox()[pri:1, instance:com.att.cdaAutomation.UMAtest.UMA_ChanLine_CRM@66ea810]" name="VerifyZIPCodeInTextBox" duration-ms="46" started-at="2018-09-24T20:38:05Z" finished-at="2018-09-24T20:38:05Z">
+        <test-method status="PASS" signature="VerifyZIPCodeInTextBox()[pri:1, instance:com.att.cdaAutomation.UMAtest.UMA_ChanLine_CRM@376a0d86]" name="VerifyZIPCodeInTextBox" duration-ms="53" started-at="2018-09-25T00:22:48Z" finished-at="2018-09-25T00:22:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyZIPCodeInTextBox -->
-        <test-method status="PASS" signature="endResult(org.testng.ITestResult)[pri:0, instance:com.att.cdaAutomation.UMAtest.UMA_ChanLine_CRM@66ea810]" name="endResult" is-config="true" duration-ms="0" started-at="2018-09-24T20:38:05Z" finished-at="2018-09-24T20:38:05Z">
+        <test-method status="PASS" signature="endResult(org.testng.ITestResult)[pri:0, instance:com.att.cdaAutomation.UMAtest.UMA_ChanLine_CRM@376a0d86]" name="endResult" is-config="true" duration-ms="1" started-at="2018-09-25T00:22:48Z" finished-at="2018-09-25T00:22:48Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerifyZIPCodeInTextBox status=SUCCESS method=UMA_ChanLine_CRM.VerifyZIPCodeInTextBox()[pri:1, instance:com.att.cdaAutomation.UMAtest.UMA_ChanLine_CRM@66ea810] output={null}]]]>
+                <![CDATA[[TestResult name=VerifyZIPCodeInTextBox status=SUCCESS method=UMA_ChanLine_CRM.VerifyZIPCodeInTextBox()[pri:1, instance:com.att.cdaAutomation.UMAtest.UMA_ChanLine_CRM@376a0d86] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endResult -->
-        <test-method status="PASS" signature="VerifyTextBelowFields()[pri:2, instance:com.att.cdaAutomation.UMAtest.UMA_ChanLine_CRM@66ea810]" name="VerifyTextBelowFields" duration-ms="24" started-at="2018-09-24T20:38:05Z" finished-at="2018-09-24T20:38:05Z">
+        <test-method status="PASS" signature="VerifyTextBelowFields()[pri:2, instance:com.att.cdaAutomation.UMAtest.UMA_ChanLine_CRM@376a0d86]" name="VerifyTextBelowFields" duration-ms="36" started-at="2018-09-25T00:22:48Z" finished-at="2018-09-25T00:22:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyTextBelowFields -->
-        <test-method status="PASS" signature="endResult(org.testng.ITestResult)[pri:0, instance:com.att.cdaAutomation.UMAtest.UMA_ChanLine_CRM@66ea810]" name="endResult" is-config="true" duration-ms="0" started-at="2018-09-24T20:38:05Z" finished-at="2018-09-24T20:38:05Z">
+        <test-method status="PASS" signature="endResult(org.testng.ITestResult)[pri:0, instance:com.att.cdaAutomation.UMAtest.UMA_ChanLine_CRM@376a0d86]" name="endResult" is-config="true" duration-ms="0" started-at="2018-09-25T00:22:48Z" finished-at="2018-09-25T00:22:48Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerifyTextBelowFields status=SUCCESS method=UMA_ChanLine_CRM.VerifyTextBelowFields()[pri:2, instance:com.att.cdaAutomation.UMAtest.UMA_ChanLine_CRM@66ea810] output={null}]]]>
+                <![CDATA[[TestResult name=VerifyTextBelowFields status=SUCCESS method=UMA_ChanLine_CRM.VerifyTextBelowFields()[pri:2, instance:com.att.cdaAutomation.UMAtest.UMA_ChanLine_CRM@376a0d86] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endResult -->
-        <test-method status="PASS" signature="VerifySearchFunctionality()[pri:3, instance:com.att.cdaAutomation.UMAtest.UMA_ChanLine_CRM@66ea810]" name="VerifySearchFunctionality" duration-ms="12309" started-at="2018-09-24T20:38:05Z" finished-at="2018-09-24T20:38:18Z">
+        <test-method status="PASS" signature="VerifySearchFunctionality()[pri:3, instance:com.att.cdaAutomation.UMAtest.UMA_ChanLine_CRM@376a0d86]" name="VerifySearchFunctionality" duration-ms="16895" started-at="2018-09-25T00:22:48Z" finished-at="2018-09-25T00:23:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySearchFunctionality -->
-        <test-method status="PASS" signature="endResult(org.testng.ITestResult)[pri:0, instance:com.att.cdaAutomation.UMAtest.UMA_ChanLine_CRM@66ea810]" name="endResult" is-config="true" duration-ms="0" started-at="2018-09-24T20:38:18Z" finished-at="2018-09-24T20:38:18Z">
+        <test-method status="PASS" signature="endResult(org.testng.ITestResult)[pri:0, instance:com.att.cdaAutomation.UMAtest.UMA_ChanLine_CRM@376a0d86]" name="endResult" is-config="true" duration-ms="1" started-at="2018-09-25T00:23:05Z" finished-at="2018-09-25T00:23:05Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerifySearchFunctionality status=SUCCESS method=UMA_ChanLine_CRM.VerifySearchFunctionality()[pri:3, instance:com.att.cdaAutomation.UMAtest.UMA_ChanLine_CRM@66ea810] output={null}]]]>
+                <![CDATA[[TestResult name=VerifySearchFunctionality status=SUCCESS method=UMA_ChanLine_CRM.VerifySearchFunctionality()[pri:3, instance:com.att.cdaAutomation.UMAtest.UMA_ChanLine_CRM@376a0d86] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endResult -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.att.cdaAutomation.UMAtest.UMA_ChanLine_CRM@66ea810]" name="endReport" is-config="true" duration-ms="493" started-at="2018-09-24T20:38:18Z" finished-at="2018-09-24T20:38:18Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.att.cdaAutomation.UMAtest.UMA_ChanLine_CRM@376a0d86]" name="endReport" is-config="true" duration-ms="546" started-at="2018-09-25T00:23:05Z" finished-at="2018-09-25T00:23:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->

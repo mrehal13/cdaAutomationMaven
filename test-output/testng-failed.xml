@@ -7,8 +7,8 @@
         <methods>
           <include name="VerifyTextBelowFields"/>
           <include name="endResult"/>
-          <include name="setUp"/>
           <include name="endReport"/>
+          <include name="start"/>
           <include name="startReport"/>
           <include name="VerifyZIPCodeInTextBox"/>
           <include name="VerifyTextBelowHeading"/>
